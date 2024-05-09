@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: awseksshiv:latest
+        image: 533266970869.dkr.ecr.us-east-1.amazonaws.com/awseksshiv:latest
         ports:
         - containerPort: 80

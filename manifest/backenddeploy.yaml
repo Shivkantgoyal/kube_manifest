@@ -1,8 +1,9 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend-deployment
-  namespace: backend
+  namespace: demo
 spec:
   replicas: 2
   selector:
@@ -39,7 +40,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: backend-service
-  namespace: backend
+  namespace: demo
 spec:
   selector:
     app: backend

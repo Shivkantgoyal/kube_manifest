@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: 533266970869.dkr.ecr.us-east-1.amazonaws.com/awseksshiv:latest
+        image: nginx
         ports:
         - containerPort: 80
